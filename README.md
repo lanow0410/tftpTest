@@ -24,4 +24,5 @@ get(or put) : 파일을 다운로드(get)하거나 업로드(put)할지 선택
 filename : 전송할 파일의 이름
 -p port : 서버 포트 번호 (옵션, 기본값 69번)
 ㄴ 입력값이 없으면 기본값인 69번 포트로 통신
+
 ex) python mytftp.py 255.255.255.255 get test.txt
